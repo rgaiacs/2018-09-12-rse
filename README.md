@@ -1,3 +1,3 @@
-# What can an RSE team do for you
+# Rise of the RSE
 
-Talk for University of Surrey, May 2018
+Keynote for JuliaCon 2018. Slides at https://mikecroucher.github.io/juliacon2018/  
