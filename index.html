@@ -1,407 +1,442 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
-		<link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/custom.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-       <section data-background="background.png">
-       <h2 class='glow'>Rise of the RSE</h2>
-			 <p>Mike Croucher</p>
-			 <p>Head of Research Computing, University of Leeds</a></p>
-			 <p>Co-Founder of Sheffield RSE group <a href="http://rse.shef.ac.uk/">http://rse.shef.ac.uk/</a></p>
-             <p>EPSRC Research Software Engineering Fellow</p
-			 <p>Twitter: <a href="https://twitter.com/walkingrandomly">@walkingrandomly</a></p>
-			 <p></p>
-       </section>
-       
-       <section data-background="background.png">
-                 <h2><embossed>What is an RSE?</embossed></h2>
-                  <img src="./rse.png" width="70%">
-                  <p><a href="http://www.walkingrandomly.com/?p=6468">http://www.walkingrandomly.com/?p=6468</a></p>
-			 </section>
-             
-             <section data-background="rse_194.png"></section>
-             <section data-background="rse_conf2016.jpg"></section>
-       
-      			 <section data-background="background.png">
-                 <h2><embossed>History of the international RSE movement</embossed></h2>
-                  <img src="./simon_hettrick.png" width="50%">
-                  <p><a href="https://slides.com/simonhettrick/why-we-need-careers-for-research-software-engineers-10-13-17-43-46#">https://slides.com/simonhettrick/why-we-need-careers-for-research-software-engineers-10-13-17-43-46#/</a></p>
-			 </section>
-             
-                 <section data-background="background.png">
-                 <h2><embossed>Background reading</embossed></h2>
-                  <img src="./son2017.png" width="75%">
-                  <p><a href="https://zenodo.org/record/495360#.W2xH2tJKhPY">https://zenodo.org/record/495360#.W2xH2tJKhPY</a></p>
-			 </section>
-             
-             <section data-background="background.png">
-				 <h2 class='glow'>How to build an RSE team</h2>
-			</section>
-             
-           
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-background="background.png">
+          <h2>O encontro de engenharia, pesquisa e software</h2>
+	  <p>Raniere Silva</p>
+	  <p>Researcher, University of Manchester, UK</p>
+          <p>Community Officer, Software Sustainability Institute, UK</p>
+          <p>Twitter: <a href="https://twitter.com/rgaiacs">@rgaiacs</a></p>
+          <p></p>
+        </section>
 
+        <section data-background="windows95.png" data-background-size="contain"></section>
 
-       <section data-background="neil_slide.png">
+        <section data-background="background.png">
+          <h2>Software é importante?</h2>
+        </section>
 
-				 <div class="right">
-					 <h2><embossed>Neil Lawrence (2014)</embossed></h2>
-					 <span class="fragment fade-in">
-                    <p>"How would you like to ditch your commute,</p>
-					<p>and change the world?"</p>
-				</span>
-				</div>
-			 </section>
+        <section data-background="use-software.png"
+                 data-background-size="contain">
+          <aside class="notes">
+            2009
 
-			 <section data-background="commute_woes.png"></section>
+            https://www.software.ac.uk/blog/2014-12-04-its-impossible-conduct-research-without-software-say-7-out-10-uk-researchers
+          </aside>
+        </section>
 
-			 <section data-background="background.png">
-        <img src="./had_me_at.jpg" width="150%">
-			 </section>
+        <section data-background="cost-software.png"
+                 data-background-size="contain">
+          <aside class="notes">
+            44,000 research grants, 7 Research Councils
 
-       <section data-background="background.png">
-				 <h2 class='glow'>Sheffield RSE - March 2015</h2>
-				 <img src="./old_me.jpeg" class="fragment fade-in">
-				 <p class="fragment fade-in">Me!</p>
-			 </section>
+            https://github.com/softwaresaved/software_in_grants_GTR
+          </aside>
+        </section>
 
-			 <section data-background="background.png">
-				<h2><embossed>Remit</embossed></h2>
-				<p>Enhance The University of Sheffield's capacity to produce high quality, efficient and sustainable research software</p>
-				<p class="fragment fade-in">....for the entirely of human knowledge</p>
-				<p class="fragment fade-in">....in all relevant languages and technologies</p>
-			</section>
+        <section data-background="paper-software.png"
+                 data-background-size="contain">
+          <aside class="notes">
+            eprints repository software
 
-			<section data-background="no_strategy.png"></section>
-			<section data-background="no_money.png"></section>
-			<section data-background="no_staff.png"></section>
-			<section data-background="./fire_gif.gif"></section>
-
-			<section data-background="background.png">
-				<h2><embossed>My 'plan'</embossed></h2>
-				<ol>
-				<li class="fragment fade-in"> Help academics with software
-				<li class="fragment fade-in"> ??????
-				<li class="fragment fade-in"> ??????
-				<li class="fragment fade-in"> Profit!!!
-			</ol>
-			</section>
-
-			<section data-background="background.png">
-				 <h2 class='glow'>Sheffield RSE - Sept 2017</h2>
-				<img src="./RSE_2017.png" width="80%">
-			</section>
-
-			<section data-background="background.png">
-				<h2 class='glow'>Sheffield RSE - March 2018</h2>
-				  <ul>
-			   <li> Mostly grant funded
-			   <li> Mostly permanent/long term contracts
-			   <li> Support entire university
-			   <li> Underwitten by IT and faculty of Engineering
-				</ul>
-		  </section>
-          
-          <section data-background="background.png">
-				<h2 class='glow'>My task now</h2>
-				  <ul>
-			   <p>Do it again at Leeds</p>
-				</ul>
-		  </section>
-
-			<section data-background="background.png">
-				 <h2 class='glow'>How did we do it?</h2>
-			</section>
-
-			<section data-background="background.png">
-				 <h2 class='glow'>Find someone who needs you</h2>
-                 <p class="fragment fade-in">aka 'Take away their pain'</p>
-			</section>
-
-			<section data-background="software.png" data-background-size="contain">	</section>
-            <section data-background="software_grant_spend.png" data-background-size="contain">	</section>
-            <section data-background="software_papers.png" data-background-size="contain">	</section>
-			<section data-background="woes.png" data-background-size="contain">	</section>
-			<section data-background="RSE_launch.png" data-background-size="contain">	</section>
-			<section data-background="gwilson.png" data-background-size="contain">	</section>
+            31 repositories (100% das publicacoes das instituicoes)
             
-            <section data-background="background.png">
-        <h2 class='glow'>The ideal</h2>
-				<p class="fragment fade-in"><font size="36">Results = TheAnalysis(MyData)</font></p>
-				<img src="domino_success.gif" class="fragment fade-in">
-			</section>
-			<section data-background="background.png">
-       <h2 class='glow'>Reality</h2>
-				<img src="domino_one.gif" class="fragment fade-in">
-			</section>
-            
-			<section data-background="long_tail.png" data-background-size="contain">	</section>
+            ~600,000 papers
 
-			<section data-background="background.png">
-				<h2><embossed>Many researchers</embossed></h2>
-					<ul>
-				 <li> I am under-resourced
-				 <li> I lack training
-				 <li> I don't have time
-				 <li> I feel so alone
-				</ul>
-			</section>
+            https://github.com/softwaresaved/Eprints-searching-for-software
+          </aside>
+        </section>
 
-			<section data-background="background.png">
-				 <h2 class='glow'>FATPOU Support</h2>
-				 <p class="fragment fade-in">aka 'No job too small'</p>
-				 <p class="fragment fade-in">aka 'The first hit is free'</p>
-			</section>
+        <section data-background="software-us.png"
+                 data-background-size="contain">
+          <aside class="notes">
+          </aside>
+        </section>
 
-      <section data-background="faster.png" data-background-size="contain">	</section>
-			<section data-background="will_tweet.png" data-background-size="contain">	</section>
-			<section data-background="anna_tweet.png" data-background-size="contain">	</section>
-			<section data-background="cloud_saving.png" data-background-size="contain"></section>
+        <section data-background="software-brazil.png"
+                 data-background-size="contain">
+          <aside class="notes">
+          </aside>
+        </section>
 
-			<section data-background="background.png">
-				 <h2 class='glow'>FATPOU is vital</h2>
-				 <p class="fragment fade-in">Organically discover researcher needs</p>
-				 <p class="fragment fade-in">Build reputation and relationships</p>
-	       <p class="fragment fade-in">Let RSEs develop themselves</p>
-				 <p class="fragment fade-in">Provide quick wins</p>
-			</section>
+        <section data-background="software-names.png"
+                 data-background-size="contain">
+          <aside class="notes">
 
-			<section data-background="background.png">
-				 <h2 class='glow'>FATPOU needs institutional buy-in</h2>
-			</section>
+            https://www.software.ac.uk/blog/2016-08-12-quick-and-dirty-analysis-software-being-used-research-python-matlab-and-r
+          </aside>
+        </section>
 
-			<section data-background="background.png">
-				 <h2 class='glow'>CATPOU Support</h2>
-				 <p class="fragment fade-in">aka 'Win grants'</p>
-				 <p class="fragment fade-in">aka 'grant support'</p>
-				  <p class="fragment fade-in">aka 'The pay off'</p>
-			</section>
+        <section data-background="background.png">
+          <h2>24% dos pesquisadores que desenvolvem código não tiveram treinamento</h2>
+        </section>
 
-			<section data-background="background.png">
-				 <h2 class='glow'>Sheffield RSE - Co-founders</h2>
-				<img src="./Fellowship.png">
-			</section>
-            
+        <section data-background="background.png">
+          <h2>50% dos líderes de grupos buscando comercializar sua pesquisa não estão confortáveis em compartilhar o código fonte da mesma</h2>
+        </section>
 
-        <section data-background="dagmar_grant.png" data-background-size="contain">	</section>
-		<section data-background="ODK.png" data-background-size="contain">	</section>
-		<section data-background="Grants_FlyBrain.png" data-background-size="contain">	</section>
-        
-            <section data-background="background.png">
-				 <h2 class='glow'>Fractional RSEs on grants</h2>
-			</section>
-            
+        <section data-background="background.png">
+          <h2>Falta de plano de carreira para especialistas em software na academia</h2>
+        </section>
 
-		<section data-background="background.png">
-			 <h2 class='glow'>Align with the University business</h2>
-			 <p class="fragment fade-in">aka 'Speak their language'</p>
-			 <p class="fragment fade-in">aka 'Be everywhere'</p>
-		</section>
-        
+        <section data-background="pcx-1.png"
+                 data-background-size="contain">
+          <aside class="notes">
+          </aside>
+        </section>
 
-       <section data-background="gpu_lecture.png" data-background-size="contain">	</section>
-		<section data-background="./BMS353.png" data-background-size="contain">	</section>
-		<section data-background="physics.png" data-background-size="contain">	</section>
-   
-        <section data-background="./tania_tweet.png" data-background-size="contain">	</section>
-		<section data-background="Education_DL.png" data-background-size="contain">	</section>
-		<section data-background="data-background">
-			<h2 class='glow'>HPC in Urban Studies courses</h2>
-			 <img src="./urban_studies.png">
-		</section>
-		<section data-background="iceberg.png" data-background-size="contain">	</section>
-		<section data-background="library.png" data-background-size="contain">	</section>
+        <section data-background="pcx-2.png"
+                 data-background-size="contain">
+          <aside class="notes">
+          </aside>
+        </section>
 
-		<section data-background="background.png">
-			<h2 class='glow'>Communicate</h2>
-			<p class="fragment fade-in">aka 'Coding isn't enough'</p>
-		</section>
+        <section data-background="woes.png" data-background-size="contain"></section>
 
-    <section data-background="blog.png" data-background-size="contain">	</section>
-		<section data-background="rse_sheff.png" data-background-size="contain">	</section>
-		<section data-background="github.png" data-background-size="contain">	</section>
-		<section data-background="code_cafe.png" data-background-size="contain">	</section>
-		<section data-background="data_hide1.jpg" data-background-size="contain">	</section>
+        <section data-background="background.png">
+          <h2>O ideal</h2>
+          <p>resultado = analise(meus_dados)</p>
+          <img src="domino_success.gif">
+        </section>
 
-		<section data-background="background.png">
-			 <h2 class='glow'>Focus on people</h2>
-		</section>
+        <section data-background="background.png">
+          <h2>A realidade</h2>
+          <img src="domino_one.gif">
+        </section>
 
-	<section data-background="background.png">
-	    <h2>We have a problem!</h2>
-      <img src="problem.gif" width="600" height="512">
-	</section>
+        <section data-background="wes.png" data-background-size="contain"></section>
 
-	  <section data-background="truth.jpg" data-background-size="contain">	</section>
-		<section data-background="wes.png" data-background-size="contain">	</section>
-		<section data-background=" background.png" >
-   <h2 class='glow'>Gary Mcindoe</h2>
-		<img src="mcindoe.png">
-		</section>
+        <section data-background="problem.gif"
+                 data-background-size="contain">
+          <aside class="notes">
+          </aside>
+        </section>
 
-		<section data-background="background.png">
-			 <h2 class='glow'>The talk</h1>
-			<p class="fragment fade-in"> <img src="not_afraid.gif" width="120%"></p>
-		</section>
+        <section data-background="china-wall.jpg">
+          <aside class="notes">
+            Catherine Poh Huay Tan
 
-		<section data-background="background.png">
-			<h1><embossed>RSE problems</embossed></h1>
-			<ul>
-                <li> No career pathway
-				<li> Not recognised by HR as a thing
-				<li> Not many RSE groups
-				<li> Lack of recognition for software itself
-			</ul>
-		</section>
-        
-        <section data-background="bad_news.png" data-background-size="contain">	</section>
-        
-        		<section data-background="background.png">
-			 <h1 class='glow'>Accept it</h1>
-      <p>This is how things are.</p>
-		<img src="angry_panda.gif" width="60%" class="fragment fade-in">
-		</section>
+            https://flic.kr/p/M1PcJp
+          </aside>
+        </section>
 
-		<section data-background="getting_better.jpg" data-background-size="contain">	</section>
-		<section data-background="cross_council_ssi.png" data-background-size="contain">	</section>
-		<section data-background="bbsrc_grant_tweet.png" data-background-size="contain">	</section>
-		<section data-background="rse_counts.png" data-background-size="contain">	</section>
-		<section data-background="this_conference.png" data-background-size="contain">	</section>
-		<section data-background="fellows_2.png" data-background-size="contain">	</section>
+        <section data-background="ssi.png"
+                 data-background-size="contain">
+          <aside class="notes">
+            2010
 
-		<section data-background="background.png">
-			<h2 class='glow'>We are agents of change</h2>
-		</section>
+            210,000 pesquisadores no UK
 
+            23 funcionarios
+          </aside>
+        </section>
 
-		<section data-background="background.png">
-			<h2 class='glow'>Community</h2>
-			<p class="fragment fade-in">aka 'Find allies'</p>
-		</section>
+        <section data-background="background.png">
+          <h2>Software Sustainability Institute</h2>
+          <ul>
+            <li>Time de desenvolvimento</li>
+            <li>Time de treinamento</li>
+            <li>Time de comunidade</li>
+            <li>Time de politica</li>
+            <li>Time de publicidade</li>
+          </ul>
+        </section>
 
-		<section data-background="background.png">
-			<h1 class='glow'><embossed>Local</embossed></h1>
-			<ul>
-			<li>IT department</li>
-			<li>The library</li>
-			<li>Departmental RSEs</li>
-	    <li>Sheffield R User's group</li>
-		 </ul>
-		</section>
+        <section data-background="jobs.png"
+                 data-background-size="contain">
+          <aside class="notes">
+            2012
 
-		<section data-background="background.png">
-			<h1 class='glow'><embossed>National</embossed></h1>
-			<ul>
-			<li>UK RSE</li>
-			<li>Tier-2 HPC centres</li>
-			<li>Software Sustainability Institute</li>
-			<li>Archer Champions</li>
-			<li>RSE-Leaders</li>
-		 </ul>
-		</section>
+            10,000 jobs assessed
 
-		<section data-background="background.png">
-			<h1 class='glow'>International</h1>
-			<ul>
-			<li>Software Carpentry</li>
-			<li>JuliaCon</li>
-			<li>Mozilla OpenScience</li>
-			<li>OpenDreamKit</li>
-		 </ul>
-		</section>
+            ~400 related to software development (4%)
+          </aside>
+        </section>
 
-		<section data-background="trainers.png" data-background-size="contain">
-		</section>
+        <section data-background="job-titles.png"
+                 data-background-size="contain">
+          <aside class="notes">
+          </aside>
+        </section>
 
-		<section data-background="background.png">
-			<h2 class='glow'>Diversity</h2>
-			<p class="fragment fade-in">aka 'Monocultures considered harmful'</p>
-		</section>
+        <section data-background="jobs-brazil.png"
+                 data-background-size="contain">
+          <aside class="notes">
+          </aside>
+        </section>
 
-		<section data-background="background.png">
-			<h2><embossed>Diversity - people</embossed></h2>
-       <img src="./RSE_2017.png" width="65%">
-		</section>
+        <section data-background="cw12.png"
+                 data-background-size="contain">
+          <aside class="notes">
+          </aside>
+        </section>
 
-		<section data-background="background.png">
-			<h2><embossed>Diversity - people</embossed></h2>
-			 <img src="./recruit_fail.png" width="100%">
-		</section>
+        <section data-background="rse-definition.png"
+                 data-background-size="contain">
+          <aside class="notes">
+          </aside>
+        </section>
 
-		<section data-background="background.png">
-			<h2><embossed>Diversity - people</embossed></h2>
-			 <img src="./code_first.png" width="100%">
-		</section>
+        <section data-background="rse-members.png"
+                 data-background-size="contain">
+          <aside class="notes">
+          </aside>
+        </section>
 
-		<section data-background="background.png">
-			<h1><embossed>Diversity - technology</embossed></h1>
-		</section>
+        <section data-background="rse-groups.png"
+                 data-background-size="contain">
+          <aside class="notes">
+          </aside>
+        </section>
 
-		<section data-background="technology.png" data-background-size="contain">
-		</section>
+        <section data-background="rse-2018.png"
+                 data-background-size="contain">
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-background="background.png">
+          <h2>Como chegamos até lá?</h2>
+          <p>Exemplo de Sheffield.</p>
+        </section>
         
         <section data-background="background.png">
-			<h1 class='glow'>What next for RSE?</h1>
-			<ul>
-			<li>Improved recognition</li>
-			<li>Improve career structure</li>
-			<li>A growth in the number of software experts</li>
-			<li>Greater access to skills for researchers</li>
-		 </ul>
-		</section>
-        
+          <h2>Sheffield RSE - March 2015</h2>
+          <img src="./old_me.jpeg">
+        </section>
+
+        <section data-background="no_strategy.png"></section>
+        <section data-background="no_money.png"></section>
+        <section data-background="no_staff.png"></section>
+        <section data-background="./fire_gif.gif"></section>
+
+
         <section data-background="background.png">
-			<h1 class='glow'>What next for RSE?</h1>
-			<p>You!<p>
-		</section>
+          <h2>Encontre alguém que precise da sua ajuda</h2>
+          <ul>
+            <li>Não tenho treinamento</li>
+            <li>Não tenho tempo</li>
+            <li>Me sinto sozinho</li>
+          </ul>
+        </section>
 
-		<section data-background="background.png">
-		<figure>
-		<img src="./mountain_guide.png">
-		<figcaption>Copyright: <a href='https://www.123rf.com/profile_niserin'>niserin / 123RF Stock Photo</a></figcaption>
-	</figure>
-		</section>
+        <section data-background="background.png">
+          <h2>Suporte Gratuito</h2>
+          <aside class="notes">
+            aka 'No job too small'
 
+            aka 'The first hit is free'
+          </aside>
+        </section>
 
-			</div>
-		</div>
+        <section data-background="background.png">
+          <h2>Suporte Gratuito é vital para o sucesso</h2>
+          <ul>
+          <li>Descobrir necessidades dos pesquisadores</li>
+          <li>Construir reputação e colaboração</li>
+          <li>Desenvolver habilidades</li>
+          <li>Vitórias curtas para crescer o portifólio</li>
+          </ul>
+          <aside class="notes">
+            Precisa de suporte institucional.
+          </aside>
+        </section>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+        <section data-background="background.png">
+          <h2>Suporte Pago</h2>
+          <ul>
+            <li>Na forma de projetos próprios</li>
+            <li>Na forma de suporte a outros projetos</li>
+            <li>Na forma de consultoria</li>
+          </ul>
+        </section>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+        <section data-background="background.png">
+          <h2>Sheffield RSE - Co-founders</h2>
+          <img src="./Fellowship.png">
+        </section>
+
+        <section data-background="fellows_2.png" data-background-size="contain"></section>
+        <section data-background="bbsrc_grant_tweet.png" data-background-size="contain"></section>
+
+        <section data-background="background.png">
+          <h2>Sheffield RSE - Setembro de 2017</h2>
+          <img src="./RSE_2017.png" width="80%">
+        </section>
+
+        <section data-background="background.png">
+          <h2>Sheffield RSE - Março de 2018</h2>
+          <ul>
+            <li>Majoritariamente financiado por projetos.</li>
+            <li>Membros possuem majoritariamente contratos de permantentes ou
+              de longo prazo.</li>
+            <li>Fornece suporte a toda universidade</li>
+            <li>Possui suporte da Faculdade de Engenharia e Departamente de TI</li>
+          </ul>
+        </section>
+
+        <section data-background="background.png">
+          <h2>Nova tarefa do Mike</h2>
+          <ul>
+            <p>Repetir o sucesso em Leeds.</p>
+          </ul>
+        </section>
+
+        <section data-background="background.png">
+          <h2>Dados demográficos sobre RSE</h2>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-background="background.png">
+          <table><tbody>
+              <tr>
+                <th>Country</th>
+                <th>Male</th>
+                <th>PhDs</th>
+                <th>Background</th>
+                <th>Motivation</th>
+              </tr>
+              <tr>
+                <td>Canada</td>
+                <td>n/a</td>
+                <td>45%</td>
+                <td>IT</td>
+                <td>n/a</td>
+              </tr>
+              <tr>
+                <td>Germany</td>
+                <td>83%</td>
+                <td>48%</td>
+                <td>Physics</td>
+                <td>Research environment</td>
+              </tr>
+              <tr>
+                <td>Netherlands</td>
+                <td>89%</td>
+                <td>11%</td>
+                <td>Comp. sci.</td>
+                <td>N/A</td>
+              </tr>
+              <tr>
+                <td>UK</td>
+                <td>84%</td>
+                <td>67%</td>
+                <td>Comp. sci./physics</td>
+                <td>Research environment</td>
+              </tr>
+              <tr>
+                <td>USA</td>
+                <td>82%</td>
+                <td>60%</td>
+                <td>Comp. sci.</td>
+                <td>Advance research</td>
+              </tr>
+              <tr>
+                <td>South Africa</td>
+                <td>92% male</td>
+                <td>68%</td>
+                <td>Physics</td>
+                <td>Research environment</td>
+              </tr>
+          </tbody></table>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section data-background="background.png">
+          <h2>Oportunidades</h2>
+          <ul>
+            <li>Questionário Internacional sobre RSE: https://github.com/softwaresaved/international-survey</li>
+            <li>Software em projetos de pesquisa brasileira: https://github.com/softwaresaved/software_in_grants_GTR</li>
+            <li>Software em artigos de pesquisa brasileira: https://github.com/softwaresaved/software_in_research_survey_2014</li>
+          </ul>
+        </section>
+
+        <section data-background="background.png">
+          <h2>Conclusões</h2>
+        </section>
+
+        <section data-background="background.png">
+          <h2>Software é primordial para pesquisa nos dias de hoje</h2>
+        </section>
+
+        <section data-background="background.png">
+          <h2>Pessoas são mais importante que software</h2>
+          <p>Pense e trate pessoas como seus aliados</p>
+        </section>
+
+        <section data-background="background.png">
+          <h1><embossed>Local</embossed></h1>
+          <ul>
+            <li>Departamento de TI</li>
+            <li>Biblioteca Universitária</li>
+            <li>Grupos de usuários (Python, R, Julia e outras linguagens)</li>
+          </ul>
+        </section>
+
+        <section data-background="background.png">
+          <h1><embossed>Internacional</embossed></h1>
+          <ul>
+            <li>(UK) RSE Association</li>
+            <li>Software Sustainability Institute</li>
+            <li>Software Carpentry</li>
+            <li>Mozilla OpenScience</li>
+            <li>OpenDreamKit</li>
+          </ul>
+        </section>
+
+        <section data-background="gwilson.png" data-background-size="contain">	</section>
+
+        <section data-background="background.png">
+          <figure>
+            <img src="./mountain_guide.png">
+            <figcaption>Copyright: <a href='https://www.123rf.com/profile_niserin'>niserin / 123RF Stock Photo</a></figcaption>
+          </figure>
+        </section>
+
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+          dependencies: [
+	      { src: 'plugin/markdown/marked.js' },
+	      { src: 'plugin/markdown/markdown.js' },
+	      { src: 'plugin/notes/notes.js', async: true },
+	      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+          ]
+      });
+    </script>
+  </body>
 </html>
